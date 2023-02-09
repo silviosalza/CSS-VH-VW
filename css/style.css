@@ -10,6 +10,56 @@
 
  }
 
+ .container2{
+    position: relative;
+    margin: 1rem;
+    border: solid black;
+    width: 50%;
+    height: 300px;
+ }
+
+ /* con top e left 50% sposta lo spigolo alto sx al centro, non il box, sposta il lato top e lato left al centro */
+
+ .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transform: translate(-50px,-50px);
+
+    /* trasform sposta l'elemento di x pixel o di una percentuale della propria dimensione */
+ }
+img{
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+ .wrapper{
+    background-color: lightgreen;
+    position: relative;
+    height: 100vh;
+ }
+
+
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+
+ .container{
+    height: 100vh;         
+    /* 100vh è 100% dell'altezza del mio schermo */
+
+ }
+
  /* vh e vw è viewport width e height, grandezza totale schermo (non è considerato lo scrolling) */
 
  /* NB. view width non si utilizza quasi mai perchè si creano problemi con la scrolling bar verticale */
