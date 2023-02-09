@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .container{
+    height: 100vh;         
+    /* 100vh è 100% dell'altezza del mio schermo */
+
+ }
+
+ /* vh e vw è viewport width e height, grandezza totale schermo (non è considerato lo scrolling) */
+
+ /* NB. view width non si utilizza quasi mai perchè si creano problemi con la scrolling bar verticale */
+
+ .ct2{
+    background-color: lightblue;
+ }
+ .ct3{
+    background-color: lightgreen;
+ }
+ .ct1{
+    background-color: lightcoral;
+ }
+ h1{
+    font-size: 4vw;
+ }
+ /* il font in vw scala allo scalare dello schermo */
